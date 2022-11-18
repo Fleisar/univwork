@@ -10,17 +10,17 @@ type CounterType = {
 
 const initialState: CounterType = {
 	first: {
-		name: 'абобусы',
+		name: 'листики',
 		points: 0,
 		history: [],
 	},
 	second: {
-		name: 'сквиши',
+		name: 'фантики',
 		points: 0,
 		history: [],
 	},
 	middle: {
-		name: 'ничъя',
+		name: 'ничья',
 		points: 0,
 		history: [],
 	}

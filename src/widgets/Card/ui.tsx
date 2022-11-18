@@ -78,7 +78,7 @@ const UI: React.FC<Props> = ({ open, setOpen, entity }) => {
 					}}
 				>
 					<span>{entity.name}</span>
-					<span style={{ fontSize: 24, textAlign: 'center' }}>{entity.description}</span>
+					<span style={{ fontSize: 24, textAlign: 'center' }}>{entity.answer}</span>
 					<MarkContainer>
 						<div onClick={() => {
 							dispatch(setFirstPoint(first.points + 1));
